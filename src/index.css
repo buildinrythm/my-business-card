@@ -9,8 +9,28 @@ body {
 
 }
 
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 317px;
+  height: 780px;
+  background-color: #c00707;
+  padding: 0;
+}
 .headshot {
+  width: 100%;
+  height: 317px;
+  border-radius: 10px;
+}
+
+.card-info {
   width: 317px;
   height: 317px;
   border-radius: 10px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
 }

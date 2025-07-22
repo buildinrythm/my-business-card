@@ -1,5 +1,6 @@
 import Info from './components/Info';
 import Headshot from './components/Headshot';
+import Footer from './components/Footer';   
 
 
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
         <div className="card-container">
             <Headshot />
             <Info />
+            <Footer />
              </div>
     )
 }

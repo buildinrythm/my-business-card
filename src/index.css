@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.headshot {
+  width: 317px;
+  height: 317px;
+  border-radius: 10px;
+}

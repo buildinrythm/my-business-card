@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  box-sizing: border-box;
+  
   font-family: sans-serif;
   background: white;
   color: black;
@@ -10,14 +11,19 @@ body {
 }
 
 .card-container {
+  margin: 10px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   width: 317px;
-  height: 780px;
-  background-color: #c00707;
-  padding: 0;
+  height: auto;
+  
+  background-color: #1A1B21;
+  color: white;
+  border-radius: 10px;
+  
 }
 .headshot {
   width: 100%;
@@ -27,10 +33,7 @@ body {
 
 .card-info {
   width: 100%;
-  height: 317px;
-  border-radius: 10px;
-  background-color: #f0f0f0;
-  padding: 20px;
+  height: auto;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   text-align: center;
 }
@@ -40,6 +43,9 @@ body {
   justify-content: center;
   gap: 20px;
   margin-top: 20px;
+  background-color: inherit;
+  width: 100%;
+  padding: 10px;
 }
 .footer-icon {
   width: 25px;

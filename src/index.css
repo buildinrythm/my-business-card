@@ -72,14 +72,15 @@ body {
   justify-content: center;
   width: 317px;
   height: auto;
-  
   background-color: #1A1B21;
   color: white;
   border-radius: 10px;
   
 }
 .headshot {
-  width: 100%;
+  margin: 0;
+  padding: 0;
+  width: auto;
   height: 317px;
   border-radius: 10px;
 }
@@ -117,3 +118,7 @@ body {
   line-height: 150%;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}

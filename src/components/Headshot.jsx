@@ -1,7 +1,7 @@
+import HeadshotImg from '../assets/Headshot.jpg';
+
 export default function Headshot() {
   return (
-    <>
-    <img src="src/assets/Headshot.jpg" alt="Headshot" className="headshot" />
-  </>
-)
+      <img src={HeadshotImg} alt="Headshot" className="headshot" />
+  );
 }

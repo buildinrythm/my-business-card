@@ -2,13 +2,13 @@ export default function Info() {
   return (
     <>
     <div className="card-info">
-   <h1>Joshua Agbor</h1>
-   <h2>Frontend Developer</h2>
-   <p>joshuaagbor.dev</p>
+   <h1 className="name">Joshua Agbor</h1>
+   <h2 className="job-title">Frontend Developer</h2>
+   <p className="website-link">joshuaagbor.dev</p>
    </div>
    <div className="card-buttons">
-   <button className="email-button">Email</button>
-   <button className="linkedin-button">LinkedIn</button>
+   <button className="email-button"><img src="src/assets/Mail.svg" alt="mail logo"></img>Email</button>
+   <button className="linkedin-button"><img src="src/assets/Linkedin.svg" alt="Linkedin logo"></img>LinkedIn</button>
    </div>
    <div className="About">  
     <h3>About</h3>

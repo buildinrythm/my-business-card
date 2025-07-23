@@ -12,7 +12,7 @@ export default function Info() {
    </div>
    <div className="card-buttons">
    <a href="mailto:joshuaagbor@gmail.com"><button className="email-button"><img src={Mailimg} alt="Mail"></img>Email</button></a>
-   <a href="www.linkedin.com/in/joshua-agbor-b06a37199" target="_blank"
+   <a href="https://www.linkedin.com/in/joshua-agbor-b06a37199" target="_blank"
   rel="noopener noreferrer"><button className="linkedin-button"><img src={LinkedinImg} alt="Linkedinlogo"></img>LinkedIn</button></a>
    </div>
    <div className="About">  
